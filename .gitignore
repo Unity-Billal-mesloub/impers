@@ -3,3 +3,4 @@ dist/
 node_modules/
 .claude
 *.tgz
+curl_cffi

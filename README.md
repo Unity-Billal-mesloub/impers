@@ -8,7 +8,7 @@ via [Koffi](https://koffi.dev/). A TypeScript port of [curl_cffi](https://github
 Node.js 18+ is required.
 
 > [!WARNING]
-> `impers` is in a technical preview state, not even alpha. All APIs are provisional, and subject to change.
+> `impers` is in a technical preview state, not even alpha. The docs may be inaccurate, All APIs are provisional, and subject to change.
 
 ## Features
 
