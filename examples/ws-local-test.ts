@@ -3,7 +3,7 @@
  */
 import { startMockServer, stopMockServer, getServerPort } from "../tests/mock-server.js";
 import koffi from "koffi";
-import { resolveLibcurlPath } from "../src/utils/platform.js";
+import { resolveLibcurlPath } from "impers";
 
 const lib = koffi.load(resolveLibcurlPath());
 

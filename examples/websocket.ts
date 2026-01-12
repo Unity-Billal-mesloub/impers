@@ -3,7 +3,7 @@
  *
  * This example connects to a public WebSocket echo server.
  */
-import { wsConnect, WebSocketMessageType } from "../src/index.js";
+import { wsConnect, WebSocketMessageType } from "impers";
 
 async function main() {
   console.log("Connecting to WebSocket server...");

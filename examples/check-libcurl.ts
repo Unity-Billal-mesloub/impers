@@ -1,7 +1,7 @@
 /**
  * Check which libcurl is being used and its capabilities
  */
-import { resolveLibrary, getPlatformInfo } from "../src/ffi/loader.js";
+import { resolveLibrary, getPlatformInfo } from "impers";
 import koffi from "koffi";
 
 const libraryInfo = resolveLibrary();

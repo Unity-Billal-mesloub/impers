@@ -2,7 +2,7 @@
  * Test AsyncWebSocket class with standalone server
  * Start ws-server.ts first: npx tsx examples/ws-server.ts
  */
-import { AsyncWebSocket } from "../src/websocket/websocket.js";
+import { AsyncWebSocket } from "impers";
 
 const port = process.argv[2] || "8765";
 

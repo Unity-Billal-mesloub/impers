@@ -1,7 +1,7 @@
 /**
  * POST request with JSON body example
  */
-import * as impers from "../src/index.js";
+import * as impers from "impers";
 
 async function main() {
   const response = await impers.post("https://httpbin.org/post", {

@@ -1,7 +1,7 @@
 /**
  * Low-level Curl handle usage example
  */
-import { Curl, CurlOpt } from "../src/index.js";
+import { Curl, CurlOpt } from "impers";
 
 async function main() {
   const curl = new Curl();

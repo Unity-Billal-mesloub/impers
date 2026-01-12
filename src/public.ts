@@ -170,6 +170,15 @@ export {
   TLS_EXTENSION_NAME_MAP,
 } from "./utils/fingerprint.js";
 
+// Platform/libcurl helpers
+export {
+  resolveLibcurlPath,
+  resolveLibrary,
+  isUsingImpersonate,
+  getPlatformInfo,
+  type LibraryInfo,
+} from "./utils/platform.js";
+
 // WebSocket exports
 export {
   AsyncWebSocket,

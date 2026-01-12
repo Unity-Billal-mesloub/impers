@@ -10,8 +10,8 @@
  * NOTE: Full fingerprinting requires curl-impersonate instead of standard libcurl.
  */
 
-import * as impers from "../src/index.js";
-import { Session, Curl, type ExtraFingerprint } from "../src/index.js";
+import * as impers from "impers";
+import { Session, Curl, type ExtraFingerprint } from "impers";
 
 async function main() {
   console.log("=== TLS/HTTP2 Fingerprinting Examples ===\n");

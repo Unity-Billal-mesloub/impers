@@ -2,7 +2,7 @@
  * Test WebSocket with standalone server using raw curl
  */
 import koffi from "koffi";
-import { resolveLibcurlPath } from "../src/utils/platform.js";
+import { resolveLibcurlPath } from "impers";
 
 const lib = koffi.load(resolveLibcurlPath());
 
